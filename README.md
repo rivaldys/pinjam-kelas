@@ -8,7 +8,7 @@ Sistem peminjaman ruang kelas berbasis web yang dapat digunakan untuk melakukan 
 * Mengajukan peminjaman ruang kelas
 * Mengelola peminjaman yang diajukan oleh pengguna (menyetujui, menghapus, memeriksa data peminjaman, dan lain sebagainya)
 * Unduh data peminjaman berdasarkan tanggal
-* Dapat diintegrasikan dengan perangkat/*hardware* penguncian pintu otomatis (saat ini hanya masih menggunakan protipe perangkat penguncian sederhana hasil perpaduan RFID dan *Solenoid Door Lock*)
+* Dapat diintegrasikan dengan perangkat/*hardware* penguncian pintu otomatis (saat ini hanya masih menggunakan prototipe perangkat penguncian sederhana hasil perpaduan RFID dan *Solenoid Door Lock*)
 * Tampilan aplikasi dibangun secara responsif (*responsive web design*) sehingga tampilan akan menyesuaikan perangkat yang digunakan, bila menggunakan perangkat komputer akan menyesuaikan tampilan komputer, sedangkan bila menggunakan ponsel akan menyesuaikan tampilan ponsel
 
 
