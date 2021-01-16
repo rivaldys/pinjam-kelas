@@ -1,0 +1,274 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'Utama';
+    src: url('../fonts/aller.woff2') format('woff2'),
+         url('../fonts/aller.woff') format('woff'),
+         url('../fonts/aller.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pembuka';
+    src: url('../fonts/cooperhewitt-book.woff2') format('woff2'),
+         url('../fonts/cooperhewitt-book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Judul Login';
+    src: url('../fonts/comfortaa.woff2') format('woff2'),
+         url('../fonts/comfortaa.woff') format('woff'),
+         url('../fonts/comfortaa.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+a {
+    color: #4FC3F7;
+    outline: none;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+a:hover {
+    color: #B3E5FC;
+}
+
+body {
+    color: #555;
+    font-family: 'Utama', sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+
+/* 
+|--------------------------------------|
+|               Clearfix               |
+|--------------------------------------|
+*/
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+
+/* 
+|--------------------------------------|
+|           Custom Bootstrap           |
+|--------------------------------------|
+*/
+
+.container-fluid {
+    height: 100%;
+    padding: 0;
+    background-color: #f5f5f5;
+    /*border: 1px solid yellow;*/
+}
+
+.baris-utama {
+    width: 80%;
+    height: 395px;
+    margin: auto;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    padding: 0;
+    /*border: 1px solid blue;*/
+}
+
+.baris-footer {
+    min-height: 38px;
+    color: #757575;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    margin: auto;
+    position: fixed;
+    right: 0; bottom: 0; left: 0;
+    /*border: 1px solid lightblue;*/
+}
+
+
+/* 
+|--------------------------------------|
+|              CSS Utama               |
+|--------------------------------------|
+*/
+
+.kotak-login {
+    padding: 0;
+    border-radius: 10px;
+    transition: 5s;
+}
+
+.gambar-login, .login-form {
+    opacity: 0;
+    transition: 2s;
+}
+
+.gambar-login {
+    float: left;
+    width: 50%;
+    height: 100%;
+    border-radius: 10px 0 0 10px;
+    background-image: url("../img/interior.jpg");
+    background-repeat: no-repeat;
+    background-attachment: cover;
+    background-size: 100%;
+    background-position: 0;
+    padding: 0;
+    transform: translate(0, -120px);
+}
+
+.gambar-login p {
+    color: #fff;
+    text-align: left;
+    font-family: 'Pembuka', sans-serif;
+    font-size: 42px;
+    line-height: 49px;
+    margin: 50px;
+    /*border: 1px solid yellow;*/
+}
+
+.login-form {
+    float: left;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    border-radius: 0 10px 10px 0;
+    background-color: #fff;
+    padding: 0;
+    transform: translate(0, 120px);
+}
+
+.login-form img {
+    width: 55px;
+    margin: 30px 0 10px 0;
+}
+
+.login-form h3 {
+    color: #757575;
+    font-family: 'Judul Login', sans-serif;
+    font-size: 22px;
+    line-height: 29px;
+    margin: 0;
+}
+
+.login-form ul {
+    list-style: none;
+    text-align: center;
+    margin-top: 20px;
+    /*border: 1px solid salmon;*/
+}
+
+.login-form li {
+    width: 100%;
+    margin-top: 15px;
+    box-sizing: border-box;
+}
+
+.login-form ul input[type=text], [type=password] {
+    display: inline-block;
+    color: #555;
+    width: 78%;
+    border: 1px solid rgba(189, 195, 199, 0.5);
+    background-color: #f5f5f5;
+    border-radius: 7px;
+    padding: 9px 15px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.login-form ul input[type=text]:focus, [type=password]:focus {
+    outline: none;
+    border-radius: 7px;
+    box-shadow: 0px 0px 7px #99ccff;
+    
+}
+
+.login-form ul input[type=submit] {
+    width: 78%;
+    color: #fff;
+    border: none;
+    border-bottom: 3px solid #009cb0;
+    border-radius: 7px;
+    background-color: #00BCD4;
+    padding: 10px 0px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.login-form input[type=submit]:hover {
+    background-color: #009cb0;
+}
+
+.login-form input[type=submit]:focus {
+    outline: none;
+}
+
+.kotak-login.muncul {
+    box-shadow: 0 0 15px #dedede;
+}
+
+.gambar-login.muncul, .login-form.muncul {
+    opacity: 1;
+    transform: translate(0,0);
+}
+
+
+/* 
+|--------------------------------------|
+|                Media                 |
+|--------------------------------------|
+*/
+
+@media (max-width: 1024px) {
+    .baris-utama {
+        width: 100%;
+    }
+}
+
+@media (max-width: 425px) {
+    .baris-utama {
+        width: 80%;
+        height: 65%;
+        min-height: 350px;
+    }
+
+    .gambar-login {
+        display: none;
+    }
+
+    .login-form {
+        width: 100%;
+        border-radius: 7px;
+    }
+
+    .col-sm-2-offset {
+        display: none;
+    }
+}
