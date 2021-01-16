@@ -2,6 +2,7 @@
 
 Sistem peminjaman ruang kelas berbasis web yang dapat digunakan untuk melakukan pengajuan peminjaman ruang kelas dan pengelolaan peminjaman ruang kelas itu sendiri. Dibuat sebagai alternatif dari mekanisme peminjaman ruang kelas secara manual yang umumnya menggunakan media kertas untuk melakukan pengajuan peminjaman.
 
+
 ## Fitur
 
 * Mengajukan peminjaman ruang kelas
@@ -10,10 +11,23 @@ Sistem peminjaman ruang kelas berbasis web yang dapat digunakan untuk melakukan 
 * Dapat diintegrasikan dengan perangkat/*hardware* penguncian pintu otomatis (saat ini hanya masih menggunakan protipe perangkat penguncian sederhana hasil perpaduan RFID dan *Solenoid Door Lock*)
 * Tampilan aplikasi dibangun secara responsif (*responsive web design*) sehingga tampilan akan menyesuaikan perangkat yang digunakan, bila menggunakan perangkat komputer akan menyesuaikan tampilan komputer, sedangkan bila menggunakan ponsel akan menyesuaikan tampilan ponsel
 
+
 ## Tampilan Aplikasi
 
-<img width="960" alt="Login Page" src="https://user-images.githubusercontent.com/76983038/104809591-0a01fe80-5821-11eb-9234-b142322e1b07.PNG">
-<img width="960" alt="Capture-2" src="https://user-images.githubusercontent.com/76983038/104809861-ffe0ff80-5822-11eb-9f66-6fd0d4f1614d.PNG">
+![Halaman Login](https://user-images.githubusercontent.com/76983038/104809591-0a01fe80-5821-11eb-9234-b142322e1b07.PNG)
+
+![Halaman Beranda](https://user-images.githubusercontent.com/76983038/104809861-ffe0ff80-5822-11eb-9f66-6fd0d4f1614d.PNG)
+
+![Kelola Akun Pengguna](https://user-images.githubusercontent.com/76983038/104810321-500d9100-5826-11eb-8ae4-62c783f36177.PNG)
+
+![Kelola Data Ruangan](https://user-images.githubusercontent.com/76983038/104810359-92cf6900-5826-11eb-9935-b2fb17ec7038.PNG)
+
+![Data Peminjaman](https://user-images.githubusercontent.com/76983038/104810381-b4305500-5826-11eb-977e-ea2e0360bc36.PNG)
+
+![Ajukan Peminjaman](https://user-images.githubusercontent.com/76983038/104810395-cb6f4280-5826-11eb-9f22-f6549d021a3a.PNG)
+
+![Riwayat Akses Ruanagan](https://user-images.githubusercontent.com/76983038/104810407-e2159980-5826-11eb-9d2d-37a2f0010292.PNG)
+
 
 ## Author
 
