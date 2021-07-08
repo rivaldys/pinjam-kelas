@@ -31,4 +31,4 @@ Sistem peminjaman ruang kelas berbasis web yang dapat digunakan untuk melakukan 
 
 ## Author
 
-Ahmad Rivaldy S - [Kunjungi Situs](https://rivald.web.id)
+Ahmad Rivaldy S - [Kunjungi Situs](https://rivaldy.net)
