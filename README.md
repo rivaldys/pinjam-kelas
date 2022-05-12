@@ -19,17 +19,17 @@ kemudian silakan pilih salah satu database yang tersedia.
 
 Terdapat beberapa level pengguna (*user*) yang dapat mengakses aplikasi ini, yakni:
 * Bagian Umum (setara Super Admin yang memiliki akses penuh)
-  - username: umum
-  - password: login.admin
+  - *username*: umum
+  - *password*: login.admin
 * Kepala Bagian/Kaprodi (admin dengan akses terbatas, hanya verifikasi peminjaman)
-  - username: kabag
-  - password: login.admin
+  - *username*: kabag
+  - *password*: login.admin
 * Biro Pendidikan (admin dengan akses terbatas, hanya verifikasi peminjaman)
-  - username: biropend
-  - password: login.admin
+  - *username*: biropend
+  - *password*: login.admin
 * Pengguna Ruangan/*User* (pengguna biasa)
-  - username: user
-  - password: login.user
+  - *username*: user
+  - *password*: login.user
 
 
 ## Tampilan Aplikasi
