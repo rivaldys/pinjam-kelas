@@ -12,6 +12,26 @@ Sistem peminjaman ruang kelas berbasis web yang dapat digunakan untuk melakukan 
 * Tampilan aplikasi dibangun secara responsif (*responsive web design*) sehingga tampilan akan menyesuaikan perangkat yang digunakan, bila menggunakan perangkat komputer akan menyesuaikan tampilan komputer, sedangkan bila menggunakan ponsel akan menyesuaikan tampilan ponsel
 
 
+## Informasi Pendukung
+
+Pastikan ketika ingin menggunakan kode sumber (*source code*) ini, terlebih dahulu *import* database yang ada pada direktori ***assets*** > ***db***,
+kemudian silakan pilih salah satu database yang tersedia.
+
+Terdapat beberapa level pengguna (*user*) yang dapat mengakses aplikasi ini, yakni:
+* Bagian Umum (setara Super Admin yang memiliki akses penuh)
+  - username: umum
+  - password: login.admin
+* Kepala Bagian/Kaprodi (admin dengan akses terbatas, hanya verifikasi peminjaman)
+  - username: kabag
+  - password: login.admin
+* Biro Pendidikan (admin dengan akses terbatas, hanya verifikasi peminjaman)
+  - username: biropend
+  - password: login.admin
+* Pengguna Ruangan/*User* (pengguna biasa)
+  - username: user
+  - password: login.user
+
+
 ## Tampilan Aplikasi
 
 ![Halaman Login](https://user-images.githubusercontent.com/76983038/104809591-0a01fe80-5821-11eb-9234-b142322e1b07.PNG)
